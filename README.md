@@ -19,21 +19,17 @@ The main objectives of this analysis are:
 
 
 ## 📈 Analysis Workflow
-1. **Import Libraries**  
-   Standard data science libraries like `pandas`, `matplotlib`, and `seaborn` were used.
+1. **Data Merging and Preparation**  
+   Merged four USDA CSVs and US GDP data into a unified pipeline using pandas
 
-2. **Data Cleaning and Preparation**  
-   - Combined rows or columns to create transaction baskets  
-   - Handled missing values and duplicates
+2. **Exploratory Data Analysis (EDA)**  
+   Generated regression plots comparing retail price vs yield (vegetables) and cup equivalent size vs yield (fruits) for both years using seaborn
 
-3. **Exploratory Data Analysis (EDA)**  
-   - Most common produce items
-   - Co-occurrence heatmaps of item pairs
-   - Visualizations for frequency distributions
+3. **Correlation Analysis**  
+   Computed R² and p-values using scipy to assess statistical significance of observed relationships
 
-4. **Pattern Discovery**  
-   - Used association rule mining (e.g., Apriori algorithm from `mlxtend`)
-   - Calculated support, confidence, and lift for popular item pairs
+4. **Association Rule Mining**  
+   Binned prices into tiers and encoded produce attributes as transactions, then ran Apriori (mlxtend) to extract rules filtered by support, confidence, and lift
 
 
 ## 📊 Key Results
