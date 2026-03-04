@@ -1,6 +1,6 @@
 # AgriculturalPrice-YieldAnalysis
 
-This project analyzes produce shopping trends using a dataset of consumer transactions. The goal is to uncover patterns in produce purchasing behavior, such as frequent item combinations, seasonal variations, and insights that can help optimize inventory or marketing strategies.
+This project analyzes USDA produce pricing and yield data across 2020 and 2022, merged with US GDP data, to uncover patterns in how produce form, price tier, and category relate to one another during a period of significant economic change.
 
 
 ## 📁 Dataset Overview
