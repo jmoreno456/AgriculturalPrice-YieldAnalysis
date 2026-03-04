@@ -13,9 +13,9 @@ Four USDA datasets covering fruit and vegetable retail prices and yields across 
 
 ## 🎯 Objective
 The main objectives of this analysis are:
-- Identify the most frequently purchased produce items
-- Analyze common produce item combinations (e.g., apples and bananas often bought together)
-- Visualize trends and patterns that can inform retail decisions
+- Identify statistically significant relationships between pricing, yield, and produce characteristics
+- Compare pricing and yield patterns between fruits and vegetables across two years
+- Discover association rules linking produce form and price tier to category membership
 
 
 ## 📈 Analysis Workflow
