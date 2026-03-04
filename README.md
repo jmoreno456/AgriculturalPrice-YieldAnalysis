@@ -40,5 +40,6 @@ The main objectives of this analysis are:
 
 
 ## 📌 Conclusions
-- Several produce items consistently appear together in transactions, indicating stable consumer behavior.
-- Association rules can help guide marketing strategies like combo deals or aisle layouts.
+- Fruit yield has a modest but statistically significant relationship with cup equivalent size, suggesting size is a partial predictor of yield
+- Vegetable yield cannot be reliably predicted from retail price alone — future work could explore non-linear models or additional features
+- High-confidence association rules suggest produce form and price tier are strong indicators of category membership, particularly for vegetables
