@@ -33,11 +33,10 @@ The main objectives of this analysis are:
 
 
 ## 📊 Key Results
-- **Top Purchased Items**: Apples, Bananas, Tomatoes, and Carrots
-- **Common Combos**: Bananas & Strawberries, Lettuce & Tomatoes
-- **Insights**:
-  - High lift values between certain item pairs suggest strong co-purchasing behavior
-  - Potential for bundling or co-promotions in stores
+- Fruits: Statistically significant relationship between cup equivalent size and yield (R²=0.13, p<0.01) in both years
+- Vegetables: No significant linear relationship between retail price and yield (R²≈0.00, p>0.70), indicating more complex or non-linear dynamics
+- Association Rules: 304 total rules generated; vegetables yielded 60 high-lift patterns (avg confidence=0.91, max lift=31.0) vs. 41 for fruits (avg confidence=0.86)
+- GDP Context: Analysis spans a 21.5% US GDP growth period (2020–2022), providing macroeconomic framing for observed price shifts
 
 
 ## 📌 Conclusions
