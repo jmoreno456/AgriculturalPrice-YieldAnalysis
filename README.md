@@ -4,11 +4,11 @@ This project analyzes USDA produce pricing and yield data across 2020 and 2022, 
 
 
 ## 📁 Dataset Overview
-The dataset contains detailed records of produce purchases, including items like fruits, vegetables, and other fresh goods. The data includes:
+Four USDA datasets covering fruit and vegetable retail prices and yields across two years, combined with World Bank US GDP data. The merged dataset contains:
 
-- Unique transaction IDs
-- Names of produce items
-- (Potentially) timestamps or customer segments
+- 310 records across 119 unique produce items
+- Features including retail price, cup equivalent price, yield, produce form, and category
+- Years 2020 and 2022, spanning a 21.5% US GDP growth period
 
 
 ## 🎯 Objective
